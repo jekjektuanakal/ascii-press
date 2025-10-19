@@ -775,10 +775,12 @@ $blockquote-quote-shadow-color: rgba(0, 0, 0, 0.1) !default;
     }
 
     pre {
-      &.highlightjs {
+      &.highlightjs, &.rouge {
         padding: 0;
 
         > code {
+          font-family: 'Hack';
+          font-size: medium;
           padding: 1em;
           -webkit-border-radius: 4px;
           border-radius: 4px;
